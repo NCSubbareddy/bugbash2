@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="This is label" max_length="40" name="x_bugbash2_this_is_label" type="collection">
+        <element choice="1" default="this is default value" label="choice label" max_length="40" name="choice_label" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
